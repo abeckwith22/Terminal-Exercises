@@ -1,0 +1,47 @@
+1. make a directory called first
+mkdir first
+
+2. change directory to the first folder
+cd first
+
+3. create a file called person.txt
+touch person.txt
+
+4. change the name of person.txt to another.txt
+mv person.txt another.txt
+
+5. make a copy of the another.txt file and call it copy.txt
+cp another.txt copy.txt
+
+6. remove the copy.txt file
+rm copy.txt
+
+7. make a copy of the first folder and call it second
+cp -r first second
+
+8. delete the second folder
+rm -rf second
+
+
+1. What does the man command do? Type in man rm. How do you scroll and get out?
+man command gives you a manual on how to use and apply a command. We scroll using Ctrl-D or jkl; keys if your (configured for vim) and can get out using q
+2. Look at the man page for ls. What does the -l flag do? What does the -a flag do?
+The -l flag for the command ls gives you a long list of the current directory rather than just a single line detailing the directory. This is good for formatting and readabilty purposes. -a flag includes hidden files in directory
+3. How do you jump between words in the terminal?
+Keystroke: Alt-f
+4. How do you get to the end of a line in terminal?
+Keystroke: Ctrl-e
+5. How do you move your cursor to the beginning in terminal?
+Keystroke: Ctrl-a
+6. How do you delete a word (without pressing backspace multiple times) in terminal?
+Keystroke: Ctrl-d
+7. What is the difference between a terminal and shell?
+Terminal is a like a ide for the shell, you can execute shell commands in a terminal. The terminal hosts the shell and is one way of accessing the shell.
+8. What is an absolute path?
+The path from the root directory of your system
+9. What is an relative path?
+The path of a file or folder from current directory.
+10. What is a flag? Give three examples of flags you have used.
+A flag is an option for different ways of executing a shell command, ls -a, rm -f, tar -xvf
+11. What do the r and f flags do with the rm command?
+the -r and -f flags in the rm command deal with recursive and forced deletion of a directory/file. Best use case being directory
